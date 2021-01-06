@@ -3,37 +3,8 @@
 
 
 /////////////// 7 QUESTIONS ///////////////
-var score = 0;
-while (true) {
-    var myLocation = prompt('do i live in amman ?');
 
-    if (myLocation.toLowerCase() == "yes" || myLocation.toLowerCase() == "y") {
-     // console.log('true thats where i live')
-        alert('true thats where i live');
-        score++;
-        break;
-    }
-    else if (myLocation.toLowerCase() == "no" || myLocation.toLowerCase() == "n") {
-       // console.log('wrong i live in amman')
-        alert("wrong i live in amman");
-        break;
-    }
-}
-while (true) {
-    var major = prompt('am i meachincal enginner ?');
 
-    if (major.toLowerCase() == "yes" || major.toLowerCase() == "y") {
-       // console.log('yup')
-        alert('yup');
-        score++;
-        break;
-    }
-    else if (major.toLowerCase() == "no" || major.toLowerCase() == "n") {
-       // console.log('nope i am a meachnical enginner')
-        alert('nope i am a meachnical enginner');
-        break;
-    }
-}
 while (true) {
     var car = prompt('do i love bmw ?');
 
